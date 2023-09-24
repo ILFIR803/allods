@@ -1,0 +1,124 @@
+.kit {
+   max-width: 1920px; 
+   background: url('../img/bg/Group3.jpg') center center/cover no-repeat;
+   height: 1055px;
+   &__wrapper {
+      padding-top: 58px;
+      display: grid;
+      grid-template-columns:  686px 637px;
+      grid-template-rows: 982px;
+      column-gap: 55px;
+   }
+   &__opacity {
+      margin-top: 213px;
+      width: 686px;
+      height: 686px;
+      border-radius: 100%;
+      opacity: 0.2;
+      background-color: #416DF4;
+      filter: blur(100px);
+   }
+   &__img {
+      position: absolute;
+      left: 350px;
+      z-index: 2;
+   }
+   &__title {
+      color: #416DF4;
+      font-family: 'Roboto Condensed';
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+   }
+   &__subtitle {
+      margin-top: 40px;
+      display: flex;
+      justify-content: flex-end;
+      column-gap: 10px;
+   }
+   &__server-free {
+      width: 140px;
+      color: #671D00;
+      text-align: center;
+      font-family: 'Roboto';
+      font-size: 12px;
+      font-weight: 400;
+      border: 1px solid #671D00;
+      cursor: default;
+   }
+   &__server-subscription {
+      width: 140px;
+      color: #671D00;
+      text-align: center;
+      font-family: 'Roboto';
+      font-size: 12px;
+      font-weight: 400;
+      border: 1px solid #671D00;
+      cursor: default;
+   }
+   &__items {
+      margin-top: 6px;
+   }
+   &__item {
+      img {
+         width: 65px;
+         height: 65px;
+      }
+      width: 632px;
+      height: 65px;
+      padding-top: 5px;
+      padding-left: 5px;
+      padding-bottom: 4px;
+      margin-bottom: 1px;
+      border-radius: 1px;
+      border: 1px solid rgba(103, 29, 0, 0.48);
+      background: rgba(0, 0, 0, 0.55);
+      display: grid;
+      grid-template-columns: 62px 20px 230px 76px 30px 99px 72px;
+      align-items: center;
+
+   }
+   &__name, &__free-col, &__subscription-col  {
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+   }
+   &__free-col, &__subscription-col {
+      text-align: center;
+   }
+   &__purchase {
+      width: 450px;
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 228px 40px 180px;
+      align-items: end;
+   }
+   &__price {
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 50px;
+      font-weight: 400;
+   }
+   &__wrap {
+      padding-bottom: 55px;
+   }
+   &__btn {
+      margin-top: 23px;
+      width: 180px;
+      height: 40px;
+      border: none;
+      border-radius: 7px;
+      background: #FCFF00;
+      color: #000;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+      cursor: pointer;
+   }
+}
